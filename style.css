@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@400;700&family=Urbanist:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "lato", sans-serif;
+ 
+}
+.container{
+  overflow: hidden;
+}
+.contactus {
+  background-color: #e62129;
+  height: 7.5rem;
+}
+
+.profile {
+  width: 83px;
+  height: 83px;
+}
+.contact-content h5{
+  font-size: clamp(0.8rem,5vw,1rem) ;
+}
+.contact-content h6{
+  font-size: clamp(0.8rem,5vw,1.12rem) ;
+}
+.footer-container {
+  background-color: #1F1F1F;
+  height: 480px;
+}
+.footer-detail h6{
+  font-size: clamp(0.8rem,5vw,1rem) ;
+}
+.footer-detail p{
+  font-size: clamp(0.8rem,5vw,1rem) ;
+}
+.contact-data {
+  height: 140px;
+  background-color: #161616;
+}
+.line {
+  border-left: 2px solid #ffffff;
+  padding-left: 20px;
+}
+
+.icon {
+  width: 30px;
+  height: 35px;
+  margin-right: 20px;
+}
+.log0 {
+  width: 134px;
+  height: 48px;
+}
+.Categories{
+    border-bottom: 1px dashed #999999;
+   
+}
+ul {
+  list-style: none;
+ 
+}
+a {
+  text-decoration: none;
+  color: #999999;
+}
+.insta{
+    width:135px;
+    height:135px;
+}
+
+@media (max-width: 767px) {
+  .contactus {
+    height: 9.5rem;
+  }
+  .light-btn {
+    margin-left: 120px;
+  }
+  .contact-data {
+    height: 350px;
+  }
+  .footer-container {
+   
+    height: 830px;
+  }
+}
+@media (max-width: 575px) {
+  .logo{
+     width: 100px;
+  height: 38px;
+  margin-top: 20px;
+  }
+  .line {
+    border-top: 2px solid #ffffff;
+    border-left: none;
+    padding-top: 10px;
+    width: 40%;
+  }
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactus {
+    height: auto;
+    padding-block: 20px;
+  }
+  .light-btn {
+    margin-left: 10px;
+  }
+  .center {
+    text-align: center;
+  }
+  .footer-container {
+    height: auto;
+    padding-bottom: 10px;
+    
+  }
+  .contact-data{
+    height: auto;
+    padding-block:20px;
+  }
+}
+
